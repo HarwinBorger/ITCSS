@@ -3,11 +3,11 @@
 This is an ITCSS boilerplate which represents a map/file structure you can use to setup new ITCSS projects.
 
 ## Features
-### Numeric
-Each ITCSS folder has a numeric prefix so it shown in the right order and easier to find. 
+### Numeric (`1.settings/`)
+Each ITCSS folder has a numeric prefix so it shown in the right ITCSS order. This makes it easier to find files. 
 
-### Double underscore files
-The main file in each ITCSS folder contains a double underscore so it is always shown on top. From this main file you can import other SCSS files.
+### Double underscore files (`__settings.scss`)
+The main file in each ITCSS folder contains a double underscore so it is always shown on top within the folder structure. From this main file you can import other SCSS files.
 
 ## Folder structure
 
@@ -23,7 +23,7 @@ The main file in each ITCSS folder contains a double underscore so it is always 
 
 6. **Components** – specific UI components. This is where majority of our work takes place and our UI components are often composed of Objects and Components. **BEM** is a good methology to use here. 
 
-7. **Utilities** – utilities and helper classes with ability to override anything which goes before in the triangle, eg. hide helper class. This should be the only place were `!important` is used
+7. **Utilities** – utilities and helper classes with ability to override anything which goes before in the triangle, eg. hide helper class. The utilities folder should be the only folder were `!important` may be used. 
  
 
 ## External resources
